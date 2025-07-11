@@ -3,11 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Budget_App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
-    
-    <h1>Hello World</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, enim.</p>
+     <div class="main">
+        <div class="con1">
+            <h3>Budget</h3>
+            <input type="number" placeholder="Enter Total Amount" id="sbudget"><br>
+            <button onclick="f1();">Set Budget</button>
+        </div>
+        <div class="con2">
+            <h3>Expenses</h3>
+            <input type="text" placeholder="Enter Title of Product" id="expense-name">
+            <input type="number" placeholder="Enter Cost of Product" id="camount">
+            <button onclick="f2();">Check Amount</button>
+        </div>
+    </div>
+    <div class="budget-bar">
+        <div class="budget-item">
+            <h4>Total Budget</h4>
+            <p id="tbudget"></p>
+        </div>
+        <div class="budget-item">
+            <h4>Expenses</h4>
+            <p id="cexpense"></p>
+        </div>
+        <div class="budget-item">
+            <h4>Balance</h4>
+            <p></p>
+        </div>
+    </div>
+      <div class="expense-list-section">
+      <h3>Expense List</h3>
+      <ul id="expense-list"></ul>
+    </div>
+     
 </body>
 </html>

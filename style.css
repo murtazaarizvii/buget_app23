@@ -1,0 +1,136 @@
+
+.con1 {
+      background-color: white;
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      width: 300px;
+}
+.con1 h3 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+}
+.con1 input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+}
+.con1 button {
+      width: 100%;
+      background-color: #4f79f5;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.con1 button:hover {
+      background-color: #3a63d1;
+}
+.con2{
+      background-color: white;
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      width: 300px;
+}
+.con2 h3 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #333;
+}
+.con2 input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+}
+.con2 button {
+      width: 100%;
+      background-color: #4f79f5;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+}
+.con2 button:hover {
+      background-color: #3a63d1;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.budget-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4c8bf5;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.budget-item {
+  text-align: center;
+}
+
+.budget-item h4 {
+  margin: 0 0 5px;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.budget-item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.expense-list-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid #4f46e5;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9fafb;
+  border-radius: 5px;
+}
+
+.expense-item span {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions i {
+  cursor: pointer;
+  color: #4f46e5;
+}
